@@ -55,3 +55,7 @@ dkms.conf
 *.dwo
 
 .clang-format
+
+.vscode/
+
+test.c
