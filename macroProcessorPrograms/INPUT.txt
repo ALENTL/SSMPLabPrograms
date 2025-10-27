@@ -1,0 +1,9 @@
+MAC1    MACRO   &REG,&DATA
+.       LOAD    &REG
+.       ADD     &DATA
+.       MEND    .
+START   .       1000
+.       MAC1    R1,VALUE1
+.       MOVER   R2,VAL_B
+.       MAC1    R3,VALUE2
+END     .       .
